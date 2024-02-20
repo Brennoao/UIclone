@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    border: none;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: graphik;
+}
+
+:root {
+    --color1: #8A05BE;
+    --color2: #F5F5F5;
+    --color3: #000000;
+    --color4: rgba(239, 239, 239, 0.902);
+
+    /* spacing */
+
+    --spacing1: 1.3em;
+    --spacing2: 0.5em;
+    --spacing3: 0.6em;
+}
+
+body {
+    width: 100vw;
+}
+
+@font-face {
+    font-family: 'graphik';
+    src: url(/font/Graphik-Family/Graphik-Regular-Trial.otf) format('woff2'),
+        url(/font/Graphik-Family/Graphik-Regular-Trial.otf) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* .Nubank-1-hex { color: #F5F5F5; }
+.Nubank-2-hex { color: #BA4DE3; }
+.Nubank-3-hex { color: #8A05BE; }
+.Nubank-4-hex { color: #530082; }
+.Nubank-5-hex { color: #191919; } */

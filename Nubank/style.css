@@ -1,0 +1,110 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between !important;
+
+    padding: var(--spacing1);
+    background: var(--color1);
+
+    border-bottom: 2px solid #bfbebe;
+}
+
+header .separator {
+    gap: 1em;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+
+    padding: var(--spacing2);
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.249);
+    border-radius: 50%;
+}
+
+header ion-icon {
+    color: var(--color2);
+    font-size: 1.4rem;
+    /* transition: all 1000ms ease-in-out; */
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing1);
+
+    width: 100%;
+    /* padding: var(--spacing1); */
+}
+
+/* ACCOUNT */
+
+.Conta {
+    justify-content: space-between !important;
+    width: 100%;
+    padding: 1em;
+}
+
+.Conta .Cash {
+    align-items: flex-start !important;
+    flex-direction: column;
+    gap: var(--spacing2);
+
+}
+
+/* BUBBLE OPTIONS */
+
+.BollsList {
+    display: flex;
+    gap: var(--spacing1);
+
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 0 1em 0 1em;
+}
+
+.BollsList::-webkit-scrollbar {
+    display: none;
+}
+
+.BollsList a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing1);
+
+    text-align: center;
+    text-decoration: none;
+    color: var(--color3);
+    max-width: 90px;
+}
+
+.BollsList a>p {
+    text-align: center;
+    font-size: 0.9rem;
+    text-align-last: center;
+}
+
+.BollsList ion-icon {
+    color: var(--color3);
+    font-size: 2rem;
+
+    background: var(--color4);
+    padding: var(--spacing3);
+    border-radius: 50%;
+}

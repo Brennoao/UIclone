@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nubank</title>
+
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .Card {
+            gap: var(--spacing2);
+            justify-content: flex-start;
+
+            padding: var(--spacing1);
+            margin: 0 var(--spacing1);
+
+            background: var(--color4);
+            border-radius: 1em;
+            text-decoration: none;
+            color: var(--color3);
+        }
+
+        .Card ion-icon {
+            --ionicon-stroke-width: 50px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="center">
+        <section class="separator center">
+            <a href=""><ion-icon name="image-outline"></ion-icon></a>
+        </section>
+        <section class="separator center">
+            <button id="hide"><ion-icon id="share" name="eye-off-outline"></ion-icon></button>
+            <button><ion-icon name="help-circle-outline"></ion-icon></button>
+            <button><ion-icon name="share-outline"></ion-icon></button>
+        </section>
+    </header>
+
+    <main>
+        <section class="center Conta">
+            <div class="Cash center">
+                <p>Conta</p>
+                <p>R$: 20,00</p>
+            </div>
+            <div><ion-icon name="chevron-forward-outline"></ion-icon></div>
+        </section>
+
+        <!-- MAIN OPTIONS -->
+        <section id="Bolls" class="BollsList">
+
+        </section>
+
+        <a href="" class="Card center">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+            <p>Meus Cartões</p>
+        </a>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="scripts.js" type="module"></script>
+</body>
+
+</html>
